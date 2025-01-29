@@ -4,6 +4,7 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable user
 id btn_cancelar
 id btn_eliminar
 id btn_guardar
@@ -12,6 +13,7 @@ id btn_nuevo
 id btn_pagar
 id btn_pay_cancelar
 id btn_pay_pagar
+id imageView
 id list_carros
 id main
 id textView

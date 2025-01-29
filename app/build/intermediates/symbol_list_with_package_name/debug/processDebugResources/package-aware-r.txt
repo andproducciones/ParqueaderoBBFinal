@@ -3109,6 +3109,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable user
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3342,6 +3343,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
