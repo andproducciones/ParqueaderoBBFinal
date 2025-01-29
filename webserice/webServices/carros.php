@@ -89,8 +89,14 @@ switch ($post['accion']) {
 
                 $diferencia = $horaEntrada->diff($horaSalida);
                 $horasTranscurridas = $diferencia->days * 24 + $diferencia->h;
-                $valorPorHora = 0.75;
+                $valorPorHora = 1;
                 $valorPago = $horasTranscurridas * $valorPorHora;
+                
+                
+                if($valorPago < 1){
+                    
+                    $valorPago = 1;
+                }
 
                 $data[] = [
                     'cod_carro' => $row['cod_carro'],
@@ -184,7 +190,7 @@ switch ($post['accion']) {
         $query = mysqli_query($conection, $sql);
 
         if ($query && mysqli_num_rows($query) > 0) {
-            $respuesta = ['code' => 200, 'response' => 'User utilizing a parking lot', 'estado' => true];
+            $respuesta = ['code' => 200, 'response' => 'Vehiculo ya registrado con esa cedula', 'estado' => true];
         } else {
             $respuesta = ['code' => 400, 'response' => 'No data found', 'estado' => false];
         }
