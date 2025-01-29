@@ -3108,7 +3108,6 @@ int drawable notify_panel_notification_icon_bg 0x7f0700e3
 int drawable test_level_drawable 0x7f0700e4
 int drawable tooltip_frame_dark 0x7f0700e5
 int drawable tooltip_frame_light 0x7f0700e6
-int drawable user 0x7f0700e7
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -3342,7 +3341,6 @@ int id ifRoom 0x7f0800e5
 int id ignore 0x7f0800e6
 int id ignoreRequest 0x7f0800e7
 int id image 0x7f0800e8
-int id imageView 0x7f080235
 int id immediateStop 0x7f0800e9
 int id included 0x7f0800ea
 int id indeterminate 0x7f0800eb

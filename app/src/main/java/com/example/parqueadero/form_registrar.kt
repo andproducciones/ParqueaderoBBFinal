@@ -36,7 +36,7 @@ class form_registrar : AppCompatActivity() {
     lateinit var listarCarros: ListView
 
     val codigos_carros = ArrayList<String>()
-    val apis: String = "https://agenda.ioasystem.com/api_carros.php"
+    val apis: String = "https://luchandovenceras.online/backend/carros.php"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -94,10 +94,12 @@ class form_registrar : AppCompatActivity() {
                     Toast.makeText(applicationContext, "Ingrese No. Placa", Toast.LENGTH_LONG).show()
                 }
                 else->{
-                    insertar()
-                    desactivarCajas()
-                    desactivarBotones()
-                    limpiarCajas()
+
+                        insertar()
+                        desactivarCajas()
+                        desactivarBotones()
+                        limpiarCajas()
+
                 }
             }
         }

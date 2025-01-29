@@ -64,8 +64,8 @@
         "source": "C:\\Users\\franc\\.gradle\\daemon\\8.10.2\\com.example.parqueadero.app-main-34:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.parqueadero.app-debug-32:/drawable_user.png.flat",
-        "source": "com.example.parqueadero.app-main-34:/drawable/user.png"
+        "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.10.2\\com.example.parqueadero.app-debug-32:\\drawable_user.png.flat",
+        "source": "C:\\Users\\franc\\.gradle\\daemon\\8.10.2\\com.example.parqueadero.app-main-34:\\drawable\\user.png"
     },
     {
         "merged": "C:\\Users\\franc\\.gradle\\daemon\\8.10.2\\com.example.parqueadero.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
